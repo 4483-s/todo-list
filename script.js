@@ -9,6 +9,8 @@ function addTask(value) {
 
   const task = document.createElement("p");
   const removeTaskBtn = document.createElement("button");
+  const upBtn = document.createElement("button");
+  const downBtn = document.createElement("button");
   task.style.display = "inline";
   task.textContent = value;
   removeTaskBtn.textContent = "Delete Task";
